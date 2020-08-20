@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: 'Russo One', sans-serif;
+}
+
+.top-container {
+  background-color: #056676;
+  width: 100%;
+  padding:18% 0;
+  margin: 0;
+}
+
+.title-oval {
+  background-color: #5B5D5E;
+  width: 60%;
+  padding:5% 0;
+  margin: 0 20%;
+  border-radius:20px;
+  box-shadow: -1px 3px 55px 8px lightblue;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.middle-container {
+  background-color: #e8ded2;
+  width: 100%;
+  padding: 50% 0;
+  margin: 0;
+  box-shadow: 0 0 40px 0 rgba(0,0,0,0.75);
+}
+
+.profile-img {
+  position: relative;
+  left: 42%;
+  bottom: 1150px;
+  width: 350px;
+}
+
+.bottom-container {
+  background-color: #056676;
+  width: 100%;
+  padding: 100px 0;
+  margin: 0;
+  box-shadow: 0 0 40px 0 rgba(0,0,0,0.75);
+}
+
+
+h1 {
+  color: #e5e5e5;
+  font-size: 45px;
+}
