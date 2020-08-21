@@ -1,52 +1,17 @@
-body {
-  margin: 0;
-  font-family: 'Russo One', sans-serif;
+.container {
+    display: flex;
+    width: 47%;
+    height: 300px;
+    border: 2px solid;
+    padding: 5px;
+   justify-content: center;
+   align-items: center;
 }
 
-.top-container {
-  background-color: #056676;
-  width: 100%;
-  padding:18% 0;
-  margin: 0;
-}
-
-.title-oval {
-  background-color: #E6EEF2;
-  width: 60%;
-  padding:5% 0;
-  margin: 0 20%;
-  border-radius:20px;
-  box-shadow: -1px 3px 55px 8px lightblue;
-  display:flex;
-  flex-direction:row;
-  justify-content: center;
-}
-
-.middle-container {
-  background-color: red;
-  width: 100%;
-  padding: 50% 0;
-  margin: 0;
-  box-shadow: 0 0 40px 0 rgba(0,0,0,0.75);
-}
-
-.profile-img {
-  position: relative;
-  left: 42%;
-  bottom: 1150px;
-  width: 350px;
-}
-
-.bottom-container {
-  background-color: #056676;
-  width: 100%;
-  padding: 100px 0;
-  margin: 0;
-  box-shadow: 0 0 40px 0 rgba(0,0,0,0.75);
-}
-
-
-h1 {
-  color: #e5e5e5;
-  font-size: 45px;
+.container .item {
+    flex-basis: 100px;
+    height: 96px;
+    border: 2px solid;
+    color: white;
+    background-color: cadetblue;
 }
